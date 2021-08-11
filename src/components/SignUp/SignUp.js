@@ -3,7 +3,6 @@ import FormInput from "./../FormInput/FormInput"
 import CustomButtom from "../CustomButton/CustomButtom"
 import { auth, createUserProfileDocument } from "./../../firebase/firebaseUtils"
 import "./SignUp.scss"
-
 class SignUp extends Component {
     constructor(props) {
         super(props)
@@ -101,4 +100,4 @@ class SignUp extends Component {
     }
 }
 
-export default SignUp
+export default SignUp;

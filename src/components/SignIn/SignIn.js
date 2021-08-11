@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import FormInput from './../FormInput/FormInput'
-import CustomButtom from './../CustomButton/CustomButtom'
-import { signInWithGoogle } from './../../firebase/firebaseUtils'
-import "./SignIn.scss"
-
-export class SignIn extends Component {
+import React, { Component } from 'react';
+import FormInput from './../FormInput/FormInput';
+import CustomButtom from './../CustomButton/CustomButtom';
+import { signInWithGoogle } from './../../firebase/firebaseUtils';
+import "./SignIn.scss";
+class SignIn extends Component {
     constructor(props) {
         super(props)
     
@@ -33,7 +32,6 @@ export class SignIn extends Component {
             <div className="sign-in">
                 <h2>I already have an account</h2>
                 <span>Sign in with your email and password</span>
-
                 <form onSubmit={this.handlesubmit}>
                     <FormInput
                     name="email"
@@ -62,4 +60,4 @@ export class SignIn extends Component {
     }
 }
 
-export default SignIn
+export default SignIn;
