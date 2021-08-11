@@ -1,5 +1,5 @@
-import React from 'react';
-import "./FormInput.scss";
+import React from 'react'
+import "./FormInput.scss"
 
 const FormInput = ({ handleChange, label, ...otherProps }) => (
     <div className='group'>
@@ -16,4 +16,4 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
     </div>
   );
 
-export default FormInput;
+export default FormInput

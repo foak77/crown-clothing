@@ -1,6 +1,6 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
-import "./MenuItem.scss";
+import React from 'react'
+import { withRouter } from 'react-router-dom'
+import "./MenuItem.scss"
 
 function MenuItem({title, imageUrl,size, history,linkUrl,match}) {
     return (

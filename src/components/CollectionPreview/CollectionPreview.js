@@ -1,6 +1,6 @@
-import React from 'react';
-import CollectionItems from '../CollectionItems/CollectionItems';
-import "./CollectionPreview.scss";
+import React from 'react'
+import CollectionItems from '../CollectionItems/CollectionItems'
+import "./CollectionPreview.scss"
 
 function CollectionPreview({title, items}) {
     return (
@@ -17,4 +17,4 @@ function CollectionPreview({title, items}) {
     )
 }
 
-export default CollectionPreview;
+export default CollectionPreview

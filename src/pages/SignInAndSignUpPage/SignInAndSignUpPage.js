@@ -1,7 +1,7 @@
-import React from 'react';
-import SignIn from './../../components/SignIn/SignIn';
-import SignUp from './../../components/SignUp/SignUp';
-import "./SignInAndSignUpPage.scss";
+import React from 'react'
+import SignIn from './../../components/SignIn/SignIn'
+import SignUp from './../../components/SignUp/SignUp'
+import "./SignInAndSignUpPage.scss"
 
 function SignInAndSignUpPage() {
     return (
@@ -12,4 +12,4 @@ function SignInAndSignUpPage() {
     )
 }
 
-export default SignInAndSignUpPage;
+export default SignInAndSignUpPage

@@ -1,6 +1,6 @@
-import React from 'react';
-import Directory from './../../components/Directory/Directory';
-import "./homepage.scss";
+import React from 'react'
+import Directory from './../../components/Directory/Directory'
+import "./homepage.scss"
 
 function HomePage() {
     return (
@@ -10,4 +10,4 @@ function HomePage() {
     )
 }
 
-export default HomePage;
+export default HomePage
