@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
 import './App.css';
-import { Route, Switch, Redirect } from "react-router-dom"
+
+import { Route, Switch, Redirect } from "react-router-dom";
+
 import HomePage from './pages/HomePage/HomePage';
 import ShopPage from './pages/ShopPage/ShopPage';
 import SignInAndSignUpPage from './pages/SignInAndSignUpPage/SignInAndSignUpPage';
 import Header from './components/Header/Header';
 import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
 import {auth, createUserProfileDocument } from './firebase/firebaseUtils'
-import {createStructuredSelector} from "reselect"
-
-import { setCurrentUser } from './redux/userRedux/userActions';
-import { selectCurrentUser } from './redux/userRedux/userSelectors';
 
 //redux
+import {createStructuredSelector} from "reselect";
 import { connect } from 'react-redux';
+import { setCurrentUser } from './redux/userRedux/userActions';
+import { selectCurrentUser } from './redux/userRedux/userSelectors';
 
 class App extends Component {
 
